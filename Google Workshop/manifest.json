@@ -1,0 +1,61 @@
+{
+  "type": "group",
+  "id": "tutorials",
+  "label": "Google/Redis Workshop",
+  "args": {
+    "withBorder": true,
+    "initialIsOpen": true
+  },
+  "children": [
+    {
+      "type": "group",
+      "id": "redis_stack",
+      "label": "Hands-on Exercises",
+      "args": {
+        "initialIsOpen": false
+      },
+      "children": [
+        {
+          "type": "internal-link",
+          "id": "strings",
+          "label": "String Exercises",
+          "args": {
+            "path": "/redis_stack/strings.md"
+          }
+        },
+        {
+          "type": "internal-link",
+          "id": "hashes",
+          "label": "Hash Exercises",
+          "args": {
+            "path": "/redis_stack/hashes.md"
+          }
+        },
+        {
+          "type": "internal-link",
+          "id": "string-hash-bonus",
+          "label": "Bonus questions",
+          "args": {
+            "path": "/redis_stack/bonus-1.md"
+          }
+        },
+        {
+          "type": "internal-link",
+          "id": "working_with_graphs",
+          "label": "Rate-Limiting",
+          "args": {
+            "path": "/redis_stack/rate-limiting.md"
+          }
+        },
+        {
+          "type": "internal-link",
+          "id": "leaderboards",
+          "label": "Leaderboard Exercise",
+          "args": {
+            "path": "/redis_stack/leaderboards.md"
+          }
+        }
+      ]
+    }
+  ]
+}
