@@ -49,10 +49,26 @@
         },
         {
           "type": "internal-link",
-          "id": "leaderboards",
-          "label": "Leaderboard Exercise",
+          "id": "keeping_score",
+          "label": "Keeping Score",
           "args": {
-            "path": "/redis_stack/leaderboards.md"
+            "path": "/redis_stack/keeping_score.md"
+          }
+        },
+        {
+          "type": "internal-link",
+          "id": "lists_and_sets",
+          "label": "Lists and Sets",
+          "args": {
+            "path": "/redis_stack/lists_and_sets.md"
+          }
+        },
+        {
+          "type": "internal-link",
+          "id": "streams",
+          "label": "Streams",
+          "args": {
+            "path": "/redis_stack/streams.md"
           }
         }
       ]
